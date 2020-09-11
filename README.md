@@ -92,6 +92,18 @@ $$
 \lim_{n\rightarrow \infty} \frac{1!+2!+\cdots +n!}{n!}
 $$
 
+【19】设函数$f\left( x \right)$在$\left( -1,1 \right)$内有二阶连续导数，且$f''\left( x \right) \ne 0$，证明
+
+（1）对于$\left( -1,1 \right)$内任意$x\ne 0$，存在唯一的$\theta \left( x \right) \in \left( 0,1 \right)$，使
+$$
+f\left( x \right) =f\left( 0 \right) +xf'\left( \theta \left( x \right) x \right)
+$$
+
+（2）
+$$
+\lim_{x\rightarrow 0} \theta \left( x \right) =\frac{1}{2}
+$$
+
 ## Section2.递推式极限
 
 【1】设$a_1=1$，$a_{n+1}=a_n+\frac{1}{a_n}\left( n\in N_+ \right)$，证明
@@ -104,6 +116,37 @@ $$
 【3】设数列$\left\{ x_n \right\}$满足$0<x_1<3$，$x_{n+1}=\sqrt{x_n\left( 3-x_n \right)}$，$n\in N_+$，证明数列$\left\{ x_n \right\}$极限存在并求其极限值。
 
 【4】证明数列$\sqrt{2},\sqrt{2+\sqrt{2}},\sqrt{2+\sqrt{2+\sqrt{2}}},\cdots$极限存在，并求其极限值。
+
+【5】设$a_1>0$，$\left\{ a_n \right\}$满足$a_{n+1}=\ln \left( 1+a_n \right)$，$n\in N_+$。
+
+（1）证明数列$\left\{ a_n \right\}$极限存在，并求其极限值；
+
+（2）计算
+$$
+\lim_{n\rightarrow \infty} \frac{a_na_{n+1}}{a_n-a_{n+1}}
+$$
+
+【6】设数列$\left\{ x_n \right\}$满足$x_{n+1}=\cos x_n$，$n\in N_+$，$x_1=\cos x$，证明该数列极限存在且其极限值为$\cos x-x=0$的根。
+
+【7】
+
+（1）证明方程$\tan x=x$在$\left( n\pi ,n\pi +\frac{\pi}{2} \right)$内存在实根$\xi _n$，$n\in N_+$；
+
+（2）计算极限
+$$
+\lim_{n\rightarrow \infty} \left( \xi_{n+1}-\xi _n \right)
+$$
+
+【8】
+
+（1）证明方程$e^x+x^{2n+1}=0$在$\left( -1,0 \right)$有唯一实根$x_n$，且$n\in N_+$；
+
+（2）证明数列$\left\{ x_n \right\}$极限存在并求其值$a$；
+
+（3）计算
+$$
+\lim_{n\rightarrow \infty} n\left( x_n-a \right)
+$$
 
 ## Section3.积分计算
 
@@ -174,6 +217,25 @@ $$
 f\left( \xi \right) =f\left( \xi +\frac{b-a}{2} \right)
 $$
 
+【6】设函数$f\left( x \right)$在$\left[ 0,1 \right]$上三阶可导，且$f\left( 0 \right) =-1$，$f\left( 1 \right) =0$，$f'\left( 0 \right) =0$，证明$\forall x\in \left( 0,1 \right)$，至少存在一点$\xi \in \left( 0,1 \right)$，使得
+$$
+f\left( x \right) =-1+x^2+\frac{x^2\left( x-1 \right)}{3!}f'''\left( \xi \right)
+$$
+
+【7】设函数$f\left( x \right)$在$\left[ 0,1 \right]$上三阶可导，且$f\left( 0 \right) =f\left( 1 \right) =0$，又$F\left( x \right) =x^3f\left( x \right)$，证明存在$\xi \in \left( 0,1 \right)$，使$F'''\left( \xi \right) =0$.
+
+【8】设函数$f\left( x \right)$在$\left[ 0,3 \right]$上连续，在$\left( 0,3 \right)$内可导，且$f\left( 0 \right) +f\left( 1 \right) +f\left( 2 \right) =3$，$f\left( 3 \right) =1$，证明至少存在一点$\xi \in \left( 0,3 \right)$，使得$f'\left( \xi \right) =0$.
+
+【9】设函数$f\left( x \right)$在$\left[ 0,1 \right]$上连续，$f\left( 0 \right) =f\left( 1 \right)$，证明对于任意自然数$n$，存在$\xi \in \left[ 0,1 \right)$，使得
+$$
+f\left( \xi +\frac{1}{n} \right) =f\left( \xi \right)
+$$
+
+【10】设函数$f\left( x \right)$在$\left[ a,b \right]$上可导，$\mu$为介于$f'\left( a \right)$与$f'\left( b \right)$之间的实数，则存在$\xi \in \left( a,b \right)$，使
+$$
+f'\left( \xi \right) =\mu
+$$
+
 ## Section5.微分不等式的证明
 
 【1】设$f\left( x \right)$在$\left[ 0,+\infty \right)$上连续，在$\left( 0,+\infty \right)$内二阶可导，且$f''\left( x \right) <0$，并设$f\left( 0 \right) =0$，试证明对$\forall x_1>0,x_2>0$，恒有
@@ -186,6 +248,31 @@ $$
 【3】证明当$x>0,y>0$时，
 $$
 x\ln x+y\ln y\geqslant \left( x+y \right) \ln \frac{x+y}{2}
+$$
+
+【4】设函数$f\left( x \right)$二阶可导，满足$f\left( 0 \right) =1$，$f'\left( 0 \right) =0$，且对任意的$x\geqslant 0$，有$f''\left( x \right) -5f'\left( x \right) +6f\left( x \right) \geqslant 0$，证明对任意的$x\geqslant 0$，有
+$$
+f\left( x \right) \geqslant 3e^{2x}-2e^{3x}
+$$
+
+【5】设函数$f\left( x \right)$在$\left[ a,b \right]$上二阶可导，$f'\left( a \right) =f'\left( b \right) =0$，证明存在$\xi \in \left( a,b \right)$使得
+$$
+\left| f''\left( \xi \right) \right|\geqslant \frac{4}{\left( b-a \right) ^2}\left| f\left( b \right) -f\left( a \right) \right|
+$$
+
+【6】证明当$x>0$时，有
+$$
+\left( x^2-1 \right) \ln x\geqslant \left( x-1 \right) ^2
+$$
+
+【7】设$0<\left| x \right|\leqslant \frac{\pi}{2}$，证明
+$$
+\left( \frac{\sin x}{x} \right) ^3>\cos x
+$$
+
+【8】设函数$f\left( x \right)$在$\left[ a,b \right]$上二阶可导，$f\left( a \right) =f\left( b \right) =0$，证明
+$$
+\mathop {\max} \limits_{x\in \left[ a,b \right]}\left| f\left( x \right) \right|\leqslant \frac{1}{8}\left( b-a \right) ^2\cdot \mathop {\max} \limits_{x\in \left[ a,b \right]}\left| f''\left( x \right) \right|
 $$
 
 ## Section6.积分不等式的证明
