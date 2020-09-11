@@ -104,6 +104,21 @@ $$
 \lim_{x\rightarrow 0} \theta \left( x \right) =\frac{1}{2}
 $$
 
+【20】计算
+$$
+\lim_{n\rightarrow \infty} n\left( \frac{1}{n^2+\pi}+\frac{1}{n^2+2\pi}+\cdots +\frac{1}{n^2+n\pi} \right)
+$$
+
+【21】计算
+$$
+\lim_{x\rightarrow 0^+} x\left[ \frac{1}{x} \right]
+$$
+
+【22】计算
+$$
+\lim_{x\rightarrow 0} \frac{\sin x-\tan x}{\left( \sqrt[3]{1+x^2}-1 \right) \left( \sqrt{1+\sin x}-1 \right)}
+$$
+
 ## Section2.递推式极限
 
 【1】设$a_1=1$，$a_{n+1}=a_n+\frac{1}{a_n}\left( n\in N_+ \right)$，证明
@@ -147,6 +162,14 @@ $$
 $$
 \lim_{n\rightarrow \infty} n\left( x_n-a \right)
 $$
+
+【9】设数列$\left\{ x_n \right\}$满足$x_0=a$，$x_1=b,x_{n+1}=\frac{1}{2}\left( x_n+x_{n-1} \right)$，$n\in N_+$，证明数列$\left\{ x_n \right\}$极限存在并求其极限。
+
+【10】
+
+（1）证明方程$x^n+x^{n-1}+\cdots +x=1\left( n>1,n\in Z \right)$在区间$\left( \frac{1}{2},1 \right)$内有且仅有一个实根；
+
+（2）记（1）中的实根为$x_n$，证明数列$\left\{ x_n \right\}$极限存在并求其极限。
 
 ## Section3.积分计算
 
@@ -234,6 +257,11 @@ $$
 【10】设函数$f\left( x \right)$在$\left[ a,b \right]$上可导，$\mu$为介于$f'\left( a \right)$与$f'\left( b \right)$之间的实数，则存在$\xi \in \left( a,b \right)$，使
 $$
 f'\left( \xi \right) =\mu
+$$
+
+【11】函数$f\left( x \right)$在$\left[ a,b \right]$上二阶连续可导，证明存在$\xi \in \left( a,b \right)$，使得
+$$
+\int_a^b{f\left( x \right) dx}=\frac{1}{2}\left[ f\left( a \right) +f\left( b \right) \right] \left( b-a \right) -\frac{1}{12}f''\left( \xi \right) \left( b-a \right) ^3
 $$
 
 ## Section5.微分不等式的证明
