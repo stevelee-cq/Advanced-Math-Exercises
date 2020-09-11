@@ -164,6 +164,16 @@ $$
 f'\left( \eta \right) \left[ f\left( \xi \right) +\xi f'\left( \xi \right) \right] =f'\left( \xi \right) \left[ bf'\left( \eta \right) -1 \right]
 $$
 
+【4】设函数$f\left( x \right)$在$\left[ a,b \right]$上连续，在$\left( a,b \right)$内二阶可导，证明存在$\xi \in \left( a,b \right)$，使得
+$$
+f\left( b \right) -2f\left( \frac{a+b}{2} \right) +f\left( a \right) =\frac{\left( b-a \right) ^2}{4}f''\left( \xi \right)
+$$
+
+【5】设$f\left( x \right)$在$\left[ a,b \right]$上连续，$f\left( a \right) =f\left( b \right)$，证明在区间$\left[ a,b \right]$上存在$\xi$，使得
+$$
+f\left( \xi \right) =f\left( \xi +\frac{b-a}{2} \right)
+$$
+
 ## Section5.微分不等式的证明
 
 【1】设$f\left( x \right)$在$\left[ 0,+\infty \right)$上连续，在$\left( 0,+\infty \right)$内二阶可导，且$f''\left( x \right) <0$，并设$f\left( 0 \right) =0$，试证明对$\forall x_1>0,x_2>0$，恒有
