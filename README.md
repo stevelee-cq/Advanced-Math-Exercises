@@ -77,6 +77,21 @@ $$
 \lim_{n\rightarrow \infty} \left( n! \right) ^{\frac{1}{n^2}}
 $$
 
+【16】计算
+$$
+\lim_{n\rightarrow \infty} \ln \sqrt[n]{\left( 1+\frac{1}{n} \right) ^k\left( 1+\frac{2}{n} \right) ^k\cdots \left( 1+\frac{n}{n} \right) ^k}
+$$
+
+【17】计算
+$$
+\lim_{n\rightarrow \infty} \frac{1}{n^4}\prod_{i=1}^{2n}{\left( n^2+i^2 \right) ^{\frac{1}{n}}}
+$$
+
+【18】计算
+$$
+\lim_{n\rightarrow \infty} \frac{1!+2!+\cdots +n!}{n!}
+$$
+
 ## Section2.递推式极限
 
 【1】设$a_1=1$，$a_{n+1}=a_n+\frac{1}{a_n}\left( n\in N_+ \right)$，证明
@@ -133,6 +148,21 @@ $$
 $$
 
 ## Section4.中值等式的证明
+
+【1】设函数$f\left( x \right)$在$\left[ a,b \right]$上连续，在$\left( a,b \right)$内可导，证明至少存在一点$\xi \in \left( a,b \right)$，使得
+$$
+\frac{f\left( \xi \right) -f\left( a \right)}{b-\xi}=f'\left( \xi \right)
+$$
+
+【2】设函数$f\left( x \right)$在$\left[ a,b \right]$上连续，在$\left( a,b \right)$内可导，且$f\left( a \right) =f\left( b \right) =1$，证明存在$\xi ,\eta \in \left( a,b \right)$，使得
+$$
+e^{\eta -\xi}\left[ f\left( \eta \right) +f'\left( \eta \right) \right] =1
+$$
+
+【3】设函数$f\left( x \right)$在$\left[ a,b \right]$上连续，在$\left( a,b \right)$内可导，$f'\left( x \right) \ne 0$，且$f\left( a \right) =0$，$f\left( b \right) =2$，证明在区间$\left( a,b \right)$内存在两个不同的点$\xi$、$\eta$使得
+$$
+f'\left( \eta \right) \left[ f\left( \xi \right) +\xi f'\left( \xi \right) \right] =f'\left( \xi \right) \left[ bf'\left( \eta \right) -1 \right]
+$$
 
 ## Section5.微分不等式的证明
 
