@@ -119,6 +119,12 @@ $$
 \lim_{x\rightarrow 0} \frac{\sin x-\tan x}{\left( \sqrt[3]{1+x^2}-1 \right) \left( \sqrt{1+\sin x}-1 \right)}
 $$
 
+【23】$n$为正整数，$a$为某实数$a\ne0$，且
+$$
+\lim_{x\rightarrow +\infty} \frac{x^{1999}}{x^n-\left( x-1 \right) ^n}=\frac{1}{a}
+$$
+则$n$、$a$的值分别为多少。
+
 ## Section2.递推式极限
 
 【1】设$a_1=1$，$a_{n+1}=a_n+\frac{1}{a_n}\left( n\in N_+ \right)$，证明
@@ -170,6 +176,8 @@ $$
 （1）证明方程$x^n+x^{n-1}+\cdots +x=1\left( n>1,n\in Z \right)$在区间$\left( \frac{1}{2},1 \right)$内有且仅有一个实根；
 
 （2）记（1）中的实根为$x_n$，证明数列$\left\{ x_n \right\}$极限存在并求其极限。
+
+【11】已知
 
 ## Section3.积分计算
 
@@ -262,6 +270,16 @@ $$
 【11】函数$f\left( x \right)$在$\left[ a,b \right]$上二阶连续可导，证明存在$\xi \in \left( a,b \right)$，使得
 $$
 \int_a^b{f\left( x \right) dx}=\frac{1}{2}\left[ f\left( a \right) +f\left( b \right) \right] \left( b-a \right) -\frac{1}{12}f''\left( \xi \right) \left( b-a \right) ^3
+$$
+
+【12】函数$f\left( x \right)$在$\left[ a,b \right]$上二阶连续可导，且$f'\left( a \right) =f'\left( b \right)$，证明存在$\xi \in \left( a,b \right)$，使得
+$$
+\int_a^b{f\left( x \right) dx}=\frac{1}{2}\left[ f\left( a \right) +f\left( b \right) \right] \left( b-a \right) +\frac{1}{6}f''\left( \xi \right) \left( b-a \right) ^3
+$$
+
+【13】函数$f\left( x \right)$在$\left[ a,b \right]$上二阶连续可导，且$f'\left( a \right) =f'\left( b \right)$，证明存在$\xi \in \left( a,b \right)$，使得
+$$
+\int_a^b{f\left( x \right) dx}=\frac{1}{2}\left[ f\left( a \right) +f\left( b \right) \right] \left( b-a \right) +\frac{1}{24}f''\left( \xi \right) \left( b-a \right) ^3
 $$
 
 ## Section5.微分不等式的证明
