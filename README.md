@@ -1,49 +1,5 @@
 # 高等数学经典题收藏(持续更新)
 
-
-
-## Section3.积分计算
-
-【1】计算
-$$
-\int_0^1{\frac{\ln \left( 1+x \right)}{1+x^2}dx}
-$$
-
-【2】计算
-$$
-\int{\frac{dx}{\left( 1-x \right) ^2\sqrt{1-x^2}}}
-$$
-
-【3】计算
-$$
-\int{\frac{\sin 10x}{\sin x}dx}
-$$
-
-【4】计算
-$$
-\int{\frac{dx}{1+x^4}}
-$$
-
-【5】计算
-$$
-\int{\frac{dx}{\left( 1+x^4 \right) ^2}}
-$$
-
-【6】计算
-$$
-\int_0^{+\infty}{\frac{\ln x}{1+x^2}dx}x
-$$
-
-【7】计算
-$$
-\int_0^{\frac{\pi}{2}}{\frac{dx}{a^2\sin ^2x+b^2\cos ^2x}}
-$$
-
-【8】计算
-$$
-\int_0^{\frac{\pi}{2}}{\frac{xdx}{\left( 1+\sin x+\cos x \right) ^2}}
-$$
-
 ## Section4.中值等式的证明
 
 【1】设函数$f\left( x \right)$在$\left[ a,b \right]$上连续，在$\left( a,b \right)$内可导，证明至少存在一点$\xi \in \left( a,b \right)$，使得
