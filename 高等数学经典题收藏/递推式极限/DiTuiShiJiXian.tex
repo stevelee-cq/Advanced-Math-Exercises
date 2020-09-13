@@ -1,0 +1,70 @@
+%导言区
+\documentclass[10pt]{article}
+\usepackage{ctex}
+\usepackage{geometry}
+\usepackage{tcolorbox}
+\geometry{b5paper,scale=0.8}
+\usepackage{zhlipsum}
+\usepackage{amsmath}
+\title{递推式极限}
+\author{言午}
+\date{\today}
+% 本文档命令
+\usepackage{array}
+\newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
+% 修改目录深度
+\setcounter{tocdepth}{2}
+
+\begin{document}
+	\maketitle
+	
+	\textbf{1.}设$a_1=1$，$a_{n+1}=a_n+\frac{1}{a_n}\left( n\in N_+ \right)$，证明
+	$$
+	\lim_{n\rightarrow \infty} \frac{a_n}{\sqrt{n}}=\sqrt{2}
+	$$
+	
+	\textbf{2.}设数列$\left\{ x_n \right\}$满足$x_1=2$，$x_{n+1}=2+\frac{1}{x_n}$，$n\in N_+$，证明数列$\left\{ x_n \right\}$收敛，并求其极限值。
+	
+	\textbf{3.}设数列$\left\{ x_n \right\}$满足$0<x_1<3$，$x_{n+1}=\sqrt{x_n\left( 3-x_n \right)}$，$n\in N_+$，证明数列$\left\{ x_n \right\}$极限存在并求其极限值。
+	
+	\textbf{4.}证明数列$\sqrt{2},\sqrt{2+\sqrt{2}},\sqrt{2+\sqrt{2+\sqrt{2}}},\cdots$极限存在，并求其极限值。
+	
+	\textbf{5.}设$a_1>0$，$\left\{ a_n \right\}$满足$a_{n+1}=\ln \left( 1+a_n \right)$，$n\in N_+$。
+	
+	（1）证明数列$\left\{ a_n \right\}$极限存在，并求其极限值；
+	
+	（2）计算
+	$$
+	\lim_{n\rightarrow \infty} \frac{a_na_{n+1}}{a_n-a_{n+1}}
+	$$
+	
+	\textbf{6.}设数列$\left\{ x_n \right\}$满足$x_{n+1}=\cos x_n$，$n\in N_+$，$x_1=\cos x$，证明该数列极限存在且其极限值为$\cos x-x=0$的根。
+	
+	\textbf{7.}
+	
+	（1）证明方程$\tan x=x$在$\left( n\pi ,n\pi +\frac{\pi}{2} \right)$内存在实根$\xi _n$，$n\in N_+$；
+	
+	（2）计算极限
+	$$
+	\lim_{n\rightarrow \infty} \left( \xi_{n+1}-\xi _n \right)
+	$$
+	
+	\textbf{8.}
+	
+	（1）证明方程$e^x+x^{2n+1}=0$在$\left( -1,0 \right)$有唯一实根$x_n$，且$n\in N_+$；
+	
+	（2）证明数列$\left\{ x_n \right\}$极限存在并求其值$a$；
+	
+	（3）计算
+	$$
+	\lim_{n\rightarrow \infty} n\left( x_n-a \right)
+	$$
+	
+	\textbf{9.}设数列$\left\{ x_n \right\}$满足$x_0=a$，$x_1=b,x_{n+1}=\frac{1}{2}\left( x_n+x_{n-1} \right)$，$n\in N_+$，证明数列$\left\{ x_n \right\}$极限存在并求其极限。
+	
+	\textbf{10.}
+	
+	（1）证明方程$x^n+x^{n-1}+\cdots +x=1\left( n>1,n\in Z \right)$在区间$\left( \frac{1}{2},1 \right)$内有且仅有一个实根；
+	
+	（2）记（1）中的实根为$x_n$，证明数列$\left\{ x_n \right\}$极限存在并求其极限。
+\end{document}
