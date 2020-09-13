@@ -1,44 +1,5 @@
 # 高等数学经典题收藏(持续更新)
 
-## Section5.微分不等式的证明
-
-【1】设$f\left( x \right)$在$\left[ 0,+\infty \right)$上连续，在$\left( 0,+\infty \right)$内二阶可导，且$f''\left( x \right) <0$，并设$f\left( 0 \right) =0$，试证明对$\forall x_1>0,x_2>0$，恒有
-$$
-f\left( x_1+x_2 \right) <f\left( x_1 \right) +f\left( x_2 \right)
-$$
-
-【2】设$f\left( x \right)$在区间$\left( -\infty ,+\infty \right)$内二阶可导，且$f''\left( x \right) >0,\lim\limits_{x\rightarrow 0} \frac{f\left( x \right)}{x}=1$，试证明恒有$f\left( x \right) \geqslant x$且等号仅在$x=0$时成立。
-
-【3】证明当$x>0,y>0$时，
-$$
-x\ln x+y\ln y\geqslant \left( x+y \right) \ln \frac{x+y}{2}
-$$
-
-【4】设函数$f\left( x \right)$二阶可导，满足$f\left( 0 \right) =1$，$f'\left( 0 \right) =0$，且对任意的$x\geqslant 0$，有$f''\left( x \right) -5f'\left( x \right) +6f\left( x \right) \geqslant 0$，证明对任意的$x\geqslant 0$，有
-$$
-f\left( x \right) \geqslant 3e^{2x}-2e^{3x}
-$$
-
-【5】设函数$f\left( x \right)$在$\left[ a,b \right]$上二阶可导，$f'\left( a \right) =f'\left( b \right) =0$，证明存在$\xi \in \left( a,b \right)$使得
-$$
-\left| f''\left( \xi \right) \right|\geqslant \frac{4}{\left( b-a \right) ^2}\left| f\left( b \right) -f\left( a \right) \right|
-$$
-
-【6】证明当$x>0$时，有
-$$
-\left( x^2-1 \right) \ln x\geqslant \left( x-1 \right) ^2
-$$
-
-【7】设$0<\left| x \right|\leqslant \frac{\pi}{2}$，证明
-$$
-\left( \frac{\sin x}{x} \right) ^3>\cos x
-$$
-
-【8】设函数$f\left( x \right)$在$\left[ a,b \right]$上二阶可导，$f\left( a \right) =f\left( b \right) =0$，证明
-$$
-\mathop {\max} \limits_{x\in \left[ a,b \right]}\left| f\left( x \right) \right|\leqslant \frac{1}{8}\left( b-a \right) ^2\cdot \mathop {\max} \limits_{x\in \left[ a,b \right]}\left| f''\left( x \right) \right|
-$$
-
 ## Section6.积分不等式的证明
 
 【1】设$f\left( x \right)$在$\left[ a,b \right]$上具有二阶可导，且$f\left( a \right) =f\left( b \right) =0$，$M=\mathop {\max} \limits_{x\in \left[ a,b \right]}\left| f''\left( x \right) \right|$，证明
